@@ -3,29 +3,36 @@
 ## Description
 This project investigates the application of machine learning to analyze codon/codon-pair distributions and their relationship to evolutionary taxonomy. Supervised models, including SVM, Decision Trees, Random Forests, and Logistic Regression, were used to classify taxonomic groups, while unsupervised clustering methods like K-Means and Self-Organizing Maps identified similarity clusters. Codon-pair data consistently outperformed individual codons, and the non-linear SVM achieved the best classification results. Novel evaluation metrics, such as the Taxonomy Closeness score, highlighted the discriminative power of codon-pair data for well-separated clusters.
 
+Codon & Bicodon data source - https://dnahive.fda.gov/dna.cgi?cmd=codon_usage&id=537&mode=tisspec <br>
+NCBI Taxonomy data source - https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/new_taxdump/
+
 ## Table of Contents (Optional)
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [Contributing](#contributing)
 4. [Citations](#citations)
 5. [License](#license)
-6. [Acknowledgments](#acknowledgments)
+
 
 ## Installation
 ### Prerequisites
-- List of software requirements
-- Required Python version
+- The code can be run on any Python IDE console (Pycharm,
+- Required Python 3.9 or above
 
 ### Setting Up
 1. Clone the repository
    ```bash
    git clone https://github.com/username/repo-name.git
 
+2. Install dependencies
+   ```bash
+   pip install -r requirements.txt
 
 
 
 
 
-Codon & Bicodon data source - https://dnahive.fda.gov/dna.cgi?cmd=codon_usage&id=537&mode=tisspec
 
-NCBI Taxonomy data source - https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/new_taxdump/
+
+
+
