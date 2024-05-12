@@ -13,18 +13,19 @@ NCBI Taxonomy data source - https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/new_taxdum
 
 ## Installation
 ### Prerequisites
-- The code can be run on any Python IDE console (Pycharm,
+- The code can be run on any Python IDEs console (Pycharm, VSCode, Jupyter Notebook, etc...)
 - Required Python 3.9 or above
 
 ### Setting Up
 1. Clone the repository
    ```bash
    git clone https://github.com/username/repo-name.git
+   ```
 
 2. Install dependencies
    ```bash
    pip install -r requirements.txt
-   
+   ```
 
 ## Usage
 
